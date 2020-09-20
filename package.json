@@ -1,0 +1,22 @@
+{
+  "name": "redsocial",
+  "version": "1.0.0",
+  "description": "Practica de backend con node",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js"
+  },
+  "keywords": [
+    "node",
+    "social"
+  ],
+  "author": "Walter",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nanoid": "^3.1.12",
+    "swagger-ui-express": "^4.1.4"
+  }
+}
